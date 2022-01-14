@@ -1,0 +1,115 @@
+<html>
+<head>
+	<title></title>
+  
+ </head>
+<style>
+    body {
+      background-image: url('Pic/bk1.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed; 
+      background-size: 100% 100%;
+    }
+    .container {
+  position: relative;
+  width: 20%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 450%;
+  height: 45%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #a071d6;
+  color: rgb(226, 215, 215);
+  font-size: 16px;
+  padding: 16px 32px;
+  position: relative;
+  bottom: 50%;
+  left: 150%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 23%;
+  padding: 5px;
+}
+
+</style>
+
+</head>
+
+<body>
+	   
+  <span style="font-size: 20px; color:BLack"><a href="Mall_Amt.html"><center><h1>Shops in City Land </center></a></span>
+
+<div class="row">
+    <div class="column">
+        <div class="container">
+            <img src="Pic\City_land_img/Nanda_Sarres.jpg" alt="Avatar" class="image" width="100" height="300" hspace="35">
+            <div class="middle">
+              <div class="text"><a href="https://goo.gl/maps/pRrNHNVzZe5z2noJ7">Nanda<br>Saares</a></div></div>
+          </div>
+    </div>
+
+    <div class="column">
+        <div class="container">
+            <img src="Pic\City_land_img/Geeta.jpg" alt="Avatar" class="image" width="100" height="300" hspace="35">
+            <div class="middle">
+              <div class="text"><a href="https://goo.gl/maps/CBcHDcniqr1uMydX8">Geeta <br> Saares</a></div></div>
+          </div>
+    </div>
+
+    <div class="column">
+     <div class="container">
+    <img src="Pic\City_land_img/Vanshika.jpg" alt="Avatar" class="image" width="100" height="300" hspace="35">
+    <div class="middle">
+      <div class="text"><a href="https://goo.gl/maps/dG6NbTYwbWQXm8Wq7">Vanshika <br>Mall</a></div></div>
+  </div> 
+</div>
+</div>
+
+
+
+<div class="row">
+    <div class="column">
+        <div class="container">
+            <img src="Pic\City_land_img/Varsha.jpg" alt="Avatar" class="image" width="100" height="300" hspace="35">
+            <div class="middle">
+              <div class="text"><a href="https://goo.gl/maps/qmV3cWwCyqRyqC4F7">Varsha<br> Sarres</a></div></div>
+          </div>
+    </div>
+</div>
+
+
+</table>
+</body>
+</html>
